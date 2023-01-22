@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css"
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -15,19 +15,24 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#portfolio" className="footer_link">
+            <a
+              href="https://www.github.com/erdem-ay/"
+              target="_blank"
+              rel="noreferrer"
+              className="footer_link"
+            >
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#testimonials" className="footer_link">
-              Testimonials
+            <a href="#skills" className="footer_link">
+              Skills
             </a>
           </li>
         </ul>
 
-        <div className="footer__social">
+        {/* <div className="footer__social">
           <a
             href="https://www.facebook.com/"
             className="footer__social-link"
@@ -51,7 +56,7 @@ const Footer = () => {
           >
             <i className="bx bxl-twitter"></i>
           </a>
-        </div>
+        </div> */}
 
         <span className="footer__copy">
           &#169; Erdemay. All rigths reserved

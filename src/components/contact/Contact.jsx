@@ -39,16 +39,18 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <i className="bx bxl-github contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">555-333-222</span>
+              <h3 className="contact__card-title">GitHub</h3>
+              <span className="contact__card-data">github/erdem-ay/</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=555333222&text=Hello, more information!"
+                href="https://www.github.com/erdem-ay/"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__button"
               >
-                Write me{" "}
+                Check my projects{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -57,11 +59,13 @@ const Contact = () => {
               <i className="bx bxl-linkedin contact__card-icon"></i>
 
               <h3 className="contact__card-title">Linkedin</h3>
-              <span className="contact__card-data">linkedin.com/erdem-ay/</span>
+              <span className="contact__card-data">linkedin/erdem-ay/</span>
 
               <a
                 href="https://www.linkedin.com/in/erdem-ay/"
                 className="contact__button"
+                target="_blank"
+                rel="noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
